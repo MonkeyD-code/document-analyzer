@@ -1,0 +1,15 @@
+# Use a recent langchain version (>=0.3.21 and <1.0.0) that’s compatible with langchain-community
+langchain>=0.3.21,<1.0.0
+
+# Install langchain-community
+langchain-community>=0.3.20
+
+# Use pydantic 2.x (pydantic-settings 2.x and langchain-community require pydantic >=2.7.0)
+pydantic>=2.7.0
+
+# Other packages remain the same
+faiss-cpu==1.7.4
+rank-bm25==0.2.2
+pypdf==3.8.0
+transformers>=4.0.0
+sentence-transformers>=2.0.0
